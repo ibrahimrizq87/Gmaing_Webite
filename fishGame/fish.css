@@ -1,0 +1,68 @@
+@font-face { font-family: "Ga Maamli"; src: url(assets/GaMaamli-Regular.ttf); } 
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: linear-gradient(to bottom, lightblue, darkblue);
+    flex-direction: column;
+}
+header {
+    background-size: cover;
+    background-color: #131842;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    font-family: "Ga Maamli";
+    color: #E68369;
+    font-size: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    margin-right: 3px;
+    border-radius: 5px;
+  }
+  
+  a:hover, a.active {
+    background-color: whitesmoke;
+    color: black;
+  }
+.container {
+    width: 800px;
+    height: 500px;
+}
+#canvas1 {
+    width: 800px;
+    height: 500px;
+    border: 4px solid black;
+    background: linear-gradient(to bottom, rgb(109, 190, 218), rgb(0, 0, 255));
+}

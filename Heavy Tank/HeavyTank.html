@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+  <header>
+    <div class="logo">NINJA</div>
+      <ul id="topnav" class="topnav">
+        <li><a href="../home.html" class="active">Our Games</a></li>
+      </ul>
+  </header>
+    <main>
+        <section class="game">
+           
+            <canvas id="game"></canvas>
+            <div id="buttonsContainer">
+                <div style="display: flex;">
+                <button class="play-button" id="playB"> START </button>
+                <button class="stop-button" id="stopB"> STOP</button>
+            </div>
+        </section>    
+ 
+  <audio id="lunch" src="sound/lunch.mp3"></audio>
+  <audio id="exp" src="sound/explosion.mp3"></audio>
+  <audio id="gameSound" src="sound/weapon-ambience-world-war-ii-battlefield-01-153373.mp3"></audio>
+  <audio id="metal" src="sound/hit_metal.mp3"></audio>
+  <audio id="fire" src="sound/bullet.mp3"></audio>
+  <audio id="win" src="sound/win.mp3"></audio>
+  <audio id="lose" src="sound/lose.wav"></audio>
+  <audio id="reload" src="sound/reload.mp3"></audio>
+
+</main>
+  <script src="script/script.js"></script>
+    
+</body>
+</html>

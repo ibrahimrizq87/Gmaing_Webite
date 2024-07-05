@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+
+   
+html,
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+  body {
+    height: 100vh;  
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom,#2a5298, #683311); 
+    color: #fff;
+}
+
+  canvas {
+    width: 1450px;
+    height: 600px;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0 , 0.6);
+}
+@font-face {
+    font-family: "Ga Maamli";
+    src: url(font/GaMaamli-Regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    top: -50px;
+    background-size: cover;
+    background-color: #131842;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition:  0.3s ease; 
+
+}
+
+header:hover {
+    top: 0;
+}
+
+.logo {
+    font-family: "Ga Maamli";
+    color: #E68369;
+    font-size: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+
+a:hover,
+a.active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+body {
+    height: 100vh;  
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom,#2a5298, #683311); 
+    color: #fff;
+}
+
+.game {
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+
+}
+
+
+
+
+.play-button {
+    font-family: 'Playwrite NO', sans-serif;
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: #ff6600;
+    display: flex;
+    font-size: large;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0 , 0.6);
+}
+
+.stop-button {
+    font-family: 'Playwrite NO', sans-serif;
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: #ff0000;
+    display: flex;
+    font-size: large;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0,0.6);
+}
+
+button:hover {
+    background-color: #cc5200;
+}
+
+#footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Ga Maamli";
+    src: url(../assets/GaMaamli-Regular.ttf);
+}
+
+* {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-size: cover;
+    background-color: #131842;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Ga Maamli";
+    color: #E68369;
+    font-size: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+
+a:hover,
+a.active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+body {
+    background: url(../assets/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    margin: 4px 10px;
+}
+
+#score,
+#status {
+    color: #f57c5f;
+}
+
+input[type="button"] {
+    background-color: #4ab0c2;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 3px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.num4 {
+    background-color: #ece0ca;
+    color: #727371;
+}
+
+.num8 {
+    background-color: #f4b17a;
+    color: white;
+}
+
+.num16 {
+    background-color: #f59575;
+    color: white;
+}
+
+.num32 {
+    background-color: #f57c5f;
+    color: white;
+}
+
+.num64 {
+    background-color: #f65d3b;
+    color: white;
+}
+
+.num128 {
+    background-color: #edce71;
+    color: white;
+}
+
+.num256 {
+    background-color: #edcc63;
+    color: white;
+}
+
+.num512 {
+    background-color: #edc651;
+    color: white;
+}
+
+.num1024 {
+    background-color: #eec744;
+    color: white;
+}
+
+.num2048 {
+    background-color: #ecc230;
+    color: white;
+}
+
+.num4096 {
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.num8192 {
+    background-color: #ff2020;
+    color: white;
+}
+footer {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131842;
+    height: 8vh;
+    color: whitesmoke;
+    width: 100%;
+}
+
+footer span {
+
+    font-family: "Ga Maamli", sans-serif;
+    color: #E68369;
+    font-size: 25px;
+}

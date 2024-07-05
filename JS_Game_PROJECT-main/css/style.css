@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Ga Maamli";
+    src: url(font/GaMaamli-Regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+
+html,
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    font-family: "Ga Maamli";
+    color: #E68369;
+    font-size: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+#header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#header-button{
+    background: #ff5722; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 25;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 50px;
+    transition:  0.3s ease;
+    border-radius: 5px; 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    
+
+}
+#header-button:hover{
+    background: #8d2606; 
+    transform: scale(1.1); 
+}
+
+
+
+
+#header {
+    position: fixed;
+    top: -100px; 
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    transition: top 0.3s ease;
+}
+#header:hover {
+    top: 0;
+}
+
+body {
+    height: 100vh;  
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom,#2a5298, #683311); 
+    color: #fff;
+}
+
+.game {
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+
+}
+
+canvas {
+    width: 800px;
+    height: 700px;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0 , 0.6);
+}
+
+.play-button {
+    font-family: 'Playwrite NO', sans-serif;
+    width: 100px;
+    height: 100px;
+    border: none;
+    font-weight: 900;
+    border-radius: 50%;
+    background-color: #ff6600;
+    display: flex;
+    font-size: large;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0 , 0.6);
+}
+
+.stop-button {
+    font-family: 'Playwrite NO', sans-serif;
+    width: 100px;
+    height: 100px;
+    border: none;
+    font-weight: 900;
+    border-radius: 50%;
+    background-color: #ff0000;
+    display: flex;
+    font-size: large;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0,0.6);
+}
+
+button:hover {
+    background-color: #cc5200;
+}
+
+#footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.8);
+}

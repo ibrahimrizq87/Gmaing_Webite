@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS&HTML5 Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   
+    <header id="header">
+        <div id="header-content">
+             <p class="logo">NINJA</p>
+            <button id="header-button" onclick="backHome()"> Our Games </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="game">
+
+            <div id="buttonsContainer">
+                <button class="play-button" id="playB"> START </button>
+                <br>
+                <button class="stop-button" id="stopB"> STOP</button>
+            </div>
+            <canvas id="canvas1"></canvas>
+
+        </section>
+        <audio id="jump" src="sound/jump.wav"></audio>
+        <audio id="punch" src="sound/punch.wav"></audio>
+        <audio id="ponus" src="sound/ponus.wav"></audio>
+        <audio id="hit" src="sound/hit_short.wav"></audio>
+
+        <audio id="life" src="sound/life.mp3"></audio>
+        <audio id="energy" src="sound/energy.mp3"></audio>
+        <audio id="round" src="sound/round.mp3"></audio>
+
+        <audio id="win" src="sound/win.wav"></audio>
+        <audio id="lose" src="sound/lose.mp3"></audio>
+        <audio id="game" src="sound/mixkit-game-level-music-689.wav" loop></audio>
+    </main>
+    <footer id="footer">© ITI Game Developers</footer>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

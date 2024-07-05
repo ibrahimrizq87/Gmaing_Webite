@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="css/2048.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">NINJA</div>
+        <ul id="myTopnav" class="topnav">
+            <li><a href="../home.html" class="active">Our Games</a></li>
+           
+        </ul>
+    </header>
+
+    <main>
+        <h2>2048 Game</h2>
+        <section class="container">
+            <h3>Score: <span id="score">0</span></h3>
+            <h3>Status: <span id="status">keep going</span></h3>
+        </section>
+        <div id="board"></div>
+        <audio src="assets/audio/calm.mp3" id="mainAudio"></audio>
+        <input type="button" value="Play Sound" onclick="playAudio()">
+        <input type="button" value="Pause Sound" onclick="pauseAudio()">
+        <a href="#" onclick="toggleAudio()">
+            <i class="fa-solid fa-volume-mute" id="audio-icon"></i>
+        </a>
+    </main>
+
+    <footer>
+        <p>Developed by &copy; <span>NINJA</span> team ALL RIGHTS RESERVED</p>
+    </footer>
+    <script src="js/2048.js"> </script>
+</body>
+
+</html>

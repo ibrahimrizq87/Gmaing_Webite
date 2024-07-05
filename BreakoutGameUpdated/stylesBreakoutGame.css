@@ -1,0 +1,90 @@
+@font-face { font-family: "Ga Maamli"; src: url(assets/GaMaamli-Regular.ttf); } 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    background-size: cover;
+    background-color: #131842;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-family: "Ga Maamli";
+    color: #E68369;
+    font-size: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    flex-wrap: wrap;
+  }
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    margin-right: 3px;
+    border-radius: 5px;
+  }
+  
+  a:hover, a.active {
+    background-color: whitesmoke;
+    color: black;
+  }
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 82vh;
+    background: linear-gradient(to bottom,#2a5298, #683311); 
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    color: #0095DD;
+    padding-bottom: 30px;
+}
+
+#breakoutCanvas {
+    background: #eee;
+    border: 2px solid #333;
+    display: block;
+}
+
+.game-info {
+    padding-top: 30px;
+    text-align: center;
+    color: #0095DD;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131842;
+    height: 8vh;
+    color: whitesmoke;
+  }
+  
+  span {
+    font-family: "Ga Maamli", sans-serif;
+    color: #E68369;
+    font-size: 25px;
+  }
