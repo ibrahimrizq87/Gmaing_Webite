@@ -89,7 +89,7 @@ const barHeight = 20;
 
 
 function backHome(){
-    window.open('../home.html', '_self', '', true);
+    window.open('../index.html', '_self', '', true);
 }
 
 
